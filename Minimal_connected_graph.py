@@ -1,4 +1,4 @@
- #READY ALGHORITHM
+#READY ALGHORITHM
 import networkx as nx
 import matplotlib.pyplot as plt
 
