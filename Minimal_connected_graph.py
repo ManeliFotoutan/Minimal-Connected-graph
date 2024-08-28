@@ -1,3 +1,4 @@
+ #READY ALGHORITHM
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -65,14 +66,13 @@ G.add_edge(1, 2, weight=5)
 G.add_edge(2, 3, weight=3)
 G.add_edge(3, 1, weight=2)
 G.add_edge(1, 3, weight=1)
-
 # Draw and save the input graph
 draw_graph(G, title="Input Directed Weighted Graph", filename="input_graph.png")
 
 # Define constraints
 root = 0
-max_edges_per_node = {1: 2, 2: 1}  # Example: node 1 can have at most 2 edges, node 2 can have at most 1 edge
-excluded_edges = {(3, 1), (1, 3)}  # Example: exclude edges (3, 1) and (1, 3)
+max_edges_per_node = {}  # Example: node 1 can have at most 2 edges, node 2 can have at most 1 edge
+excluded_edges = { }  # Example: exclude edges (3, 1) and (1, 3)
 
 # Find the Minimum Spanning Arborescence with constraints
 mst_edges = min_spanning_arborescence(G, root, max_edges_per_node=max_edges_per_node, excluded_edges=excluded_edges)
@@ -80,5 +80,3 @@ mst_edges = min_spanning_arborescence(G, root, max_edges_per_node=max_edges_per_
 # Draw and save the Minimum Spanning Arborescence
 draw_graph(G, mst_edges=mst_edges, title="Minimum Spanning Arborescence", filename="msa_graph.png")
 
-
-#test for pushing
