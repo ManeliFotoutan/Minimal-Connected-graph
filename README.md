@@ -13,31 +13,35 @@ This project implements an algorithm to find a Minimum Spanning Arborescence (a 
 
 1. Run the script:
 
-   ```bash
+   \`\`\`bash
    python Solu/Minimal_connected_graph.py
-   
- 2. The script generates two image files:
-     input_graph.png: Shows the original graph.
-    msa_graph.png: Shows the minimum spanning arborescence with constraints.
+   \`\`\`
 
- 3. Modify the script to set:
+The script generates two image files:
 
-   root: The root node for the arborescence.
+- input_graph.png: Shows the original graph.  
+- msa_graph.png: Shows the minimum spanning arborescence with constraints.
 
-   max_edges_per_node: A dictionary to set maximum allowed edges per node.
+Modify the script to set:
 
-   excluded_edges: A set or dictionary of edges to exclude.
+- root: The root node for the arborescence.  
+- max_edges_per_node: A dictionary to set maximum allowed edges per node.  
+- excluded_edges: A set or dictionary of edges to exclude.
 
 ## Dependencies
-networkx
-matplotlib
-      Install dependencies using:
-      
-      ```bash
-      pip install networkx matplotlib
+
+- networkx  
+- matplotlib
+
+Install dependencies using:
+
+\`\`\`bash
+pip install networkx matplotlib
+\`\`\`
 
 ## Notes
-The visualization uses matplotlib and saves images to files.
-The algorithm uses a union-find structure for cycle detection.
-The script currently does not display plots interactively; images are saved to disk instead.
 
+- The visualization uses matplotlib and saves images to files.  
+- The algorithm uses a union-find structure for cycle detection.  
+- The script currently does not display plots interactively; images are saved to disk instead.
+EOF
