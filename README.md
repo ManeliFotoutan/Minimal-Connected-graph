@@ -13,9 +13,11 @@ This project implements an algorithm to find a Minimum Spanning Arborescence (a 
 
 1. Run the script:
 
-   \`\`\`bash
+   Run the script:
+
+   ```bash
    python Solu/Minimal_connected_graph.py
-   \`\`\`
+
 
 The script generates two image files:
 
@@ -35,9 +37,8 @@ Modify the script to set:
 
 Install dependencies using:
 
-\`\`\`bash
+```bash
 pip install networkx matplotlib
-\`\`\`
 
 ## Notes
 
