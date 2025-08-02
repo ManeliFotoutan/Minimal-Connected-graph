@@ -32,15 +32,13 @@ excluded_edges: A set or dictionary of edges to exclude.
 networkx
 matplotlib
 
-   ```bash
-Install dependencies using:
 
-pip install networkx matplotlib
+   Install dependencies using:
+      ```bash
+      pip install networkx matplotlib
 
 ## Notes
 The visualization uses matplotlib and saves images to files.
 The algorithm uses a union-find structure for cycle detection.
 The script currently does not display plots interactively; images are saved to disk instead.
 
-Copy
-Edit
