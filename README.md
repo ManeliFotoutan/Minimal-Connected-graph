@@ -35,10 +35,10 @@ Modify the script to set:
 - networkx  
 - matplotlib
 
-Install dependencies using:
+   Install dependencies using:
 
-```bash
-pip install networkx matplotlib
+   ```bash
+   pip install networkx matplotlib
 
 ## Notes
 
